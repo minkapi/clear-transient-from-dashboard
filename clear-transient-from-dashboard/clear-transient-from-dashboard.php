@@ -51,6 +51,10 @@ function CTFD_clear_transient() {
 					}
 				}
 			}
+
+			if ( wp_using_ext_object_cache() ) {
+				wp_cache_flush();
+			}
 		}
 
 	}
