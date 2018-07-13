@@ -3,7 +3,7 @@
 Plugin Name: Clear Transient From Dashboard
 Description: Logging in as admin, you can clear all transients from the dashboard.
 Author: minkapi
-version: 1.1
+version: 2.0
 */
 add_action( 'load-index.php', 'CTFD_clear_transient' );
 function CTFD_clear_transient() {
