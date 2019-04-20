@@ -2,8 +2,8 @@
 Contributors: minkapi
 Tags: transient
 Requires at least: 4.9
-Tested up to: 4.9.7
-Stable tag: 2.0
+Tested up to: 5.1.1
+Stable tag: 2.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,6 +24,8 @@ If you can find no change in your screen, it is convenient to immediately check 
 
 
 == Changelog ==
+= 2.1 =
+* Support 5.1.1
 = 2.0 =
 * Support object cache
 = 1.1 =
